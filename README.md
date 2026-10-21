@@ -133,14 +133,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **tranv07** - *Initial work* - [GitHub Profile](https://github.com/tranv07)
 
-## Acknowledgments
-
-- FIRST Robotics Competition
-- FIRST Tech Challenge
-- FIRST Global
-- All volunteer mentors and organizers
-- The global robotics community
-
 ---
 
 **Note**: This is an educational project for managing robotics competitions. All trademarks, logos, and brand names belong to FIRST and are used for informational purposes only.
