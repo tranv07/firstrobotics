@@ -2,7 +2,6 @@ import express from 'express';
 import mongoose from 'mongoose';
 import swaggerUi from 'swagger-ui-express';
 import { swaggerSpec } from './config/swagger';
-import exampleRoutes from './routes/exampleRoutes';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -19,7 +18,6 @@ app.get('/health', (req, res) => {
 });
 
 // API Routes
-app.use('/api/examples', exampleRoutes);
 
 // Connect to MongoDB
 /*mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/firstrobotics')
